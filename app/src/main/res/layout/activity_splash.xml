@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_black">
+
+        <ImageView
+            android:id="@+id/ivAppIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:src="@drawable/ic_vector_app_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvAppTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/nunito_regular"
+            android:gravity="center"
+            android:text="NASA\nPhoto of the Day"
+            android:textColor="@color/grey_bg"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/ivAppIcon"
+            app:layout_constraintStart_toStartOf="@+id/ivAppIcon"
+            app:layout_constraintTop_toBottomOf="@+id/ivAppIcon" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

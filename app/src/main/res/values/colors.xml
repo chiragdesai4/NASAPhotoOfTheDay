@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="darkPurple">#231942</color>
+    <color name="lightPurple">#5E548E</color>
+
+    <color name="light_purple">#9F86C0</color>
+
+    <color name="light_black">#646464</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="grey_bg">#f1f1f6</color>
+    <!--    <color name="grey_bg">#f1f1f6</color>-->
+    <color name="text_dark_purple">#43396b</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

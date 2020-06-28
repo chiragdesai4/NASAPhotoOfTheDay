@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NASA Photo of the Day</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Okay</string>
+    <string name="not_fetching">Not able to fetch records.</string>
+
+
+    <!-- Errors -->
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="something_went_wrong">Oh no, something went wrong!</string>
+    <string name="failed_to_connect_with_server">Failed to connect with server!</string>
+    <string name="title_activity_image_or_video">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="yes">Yes, Exit</string>
+    <string name="no">No</string>
+
+</resources>
