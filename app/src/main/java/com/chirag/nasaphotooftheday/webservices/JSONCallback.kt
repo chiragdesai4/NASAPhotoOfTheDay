@@ -1,8 +1,8 @@
 package com.chirag.nasaphotooftheday.webservices
 
 import android.content.Context
-import com.chirag.covid19india.ui.base.CustomProgressDialog
 import com.chirag.nasaphotooftheday.R
+import com.chirag.nasaphotooftheday.base.CustomProgressDialog
 import com.chirag.nasaphotooftheday.misc.Logger
 import com.chirag.nasaphotooftheday.misc.Utils
 import okhttp3.ResponseBody

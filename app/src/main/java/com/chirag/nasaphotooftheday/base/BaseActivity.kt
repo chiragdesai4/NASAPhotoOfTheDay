@@ -3,7 +3,6 @@ package com.chirag.nasaphotooftheday.base
 import android.content.Context
 import android.os.Build
 import android.os.Bundle
-import android.os.SystemClock
 import android.util.DisplayMetrics
 import android.util.Log
 import android.view.MenuItem
@@ -16,7 +15,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
-import com.chirag.covid19india.ui.base.CustomProgressDialog
 import com.chirag.nasaphotooftheday.MyApp
 import com.chirag.nasaphotooftheday.R
 import com.chirag.nasaphotooftheday.misc.C
@@ -25,7 +23,6 @@ import com.google.android.material.snackbar.Snackbar
 
 abstract class BaseActivity : AppCompatActivity() {
     private var shouldPerformDispatchTouch = true
-    private var lastClickTime: Long = 0
     private var dialogCustom: CustomProgressDialog? = null
     private var snackbar: Snackbar? = null
     private lateinit var glideUtils: GlideUtils

@@ -11,7 +11,6 @@
     <color name="transparent">#00FFFFFF</color>
 
     <color name="grey_bg">#f1f1f6</color>
-    <!--    <color name="grey_bg">#f1f1f6</color>-->
     <color name="text_dark_purple">#43396b</color>
 
     <color name="black_overlay">#66000000</color>

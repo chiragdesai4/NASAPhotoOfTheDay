@@ -10,9 +10,6 @@
 
     </style>
 
-
-    <!-- Profile CardView Style -->
-
     <style name="DialogWithAnimation" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:backgroundDimAmount">0.2</item>

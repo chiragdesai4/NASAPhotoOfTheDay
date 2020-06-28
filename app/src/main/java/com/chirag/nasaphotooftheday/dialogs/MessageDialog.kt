@@ -15,7 +15,8 @@ import com.chirag.nasaphotooftheday.databinding.DialogMessageBinding
 /**
  * Created by Chirag Desai
  */
-class MessageDialog : AlertDialog, View.OnClickListener {
+class MessageDialog(context: Context?) : AlertDialog(context!!, R.style.DialogWithAnimation),
+    View.OnClickListener {
     private var isCancel = true
     private var onlyPositiveButton = false
     private var title: String? = null
@@ -25,26 +26,8 @@ class MessageDialog : AlertDialog, View.OnClickListener {
     private var onPositiveButtonClick: DialogInterface.OnClickListener? = null
     private var onNegativeButtonClick: DialogInterface.OnClickListener? = null
 
-    constructor(context: Context?) : super(context!!, R.style.DialogWithAnimation)
-    constructor(context: Context?, onlyPositiveButton: Boolean) : super(
-        context!!,
-        R.style.DialogWithAnimation
-    ) {
-        this.onlyPositiveButton = onlyPositiveButton
-    }
-
-    fun setTitle(title: String?): MessageDialog {
-        this.title = title
-        return this
-    }
-
     fun setMessage(message: String?): MessageDialog {
         this.message = message
-        return this
-    }
-
-    fun cancelable(cancelable: Boolean): MessageDialog {
-        isCancel = cancelable
         return this
     }
 

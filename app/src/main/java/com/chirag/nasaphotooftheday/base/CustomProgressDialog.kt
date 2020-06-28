@@ -1,4 +1,4 @@
-package com.chirag.covid19india.ui.base
+package com.chirag.nasaphotooftheday.base
 
 import android.content.Context
 import android.graphics.Color
